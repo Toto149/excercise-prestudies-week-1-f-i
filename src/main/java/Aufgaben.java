@@ -46,23 +46,23 @@ public class Aufgaben {
             //Initals of my name
 
                 System.out.println("Initials of my name as char since each of them is only one letter which can be stored in a" +
-                        " char as smallest Data Type to store it in (16 bit)");
+                        " char as smallest data type to store it in (16 bit)");
 
                 char myFirstNameInitial = 'T';
-                System.out.println(myFirstNameInitial);
+                System.out.println("My first name initial:  " + myFirstNameInitial);
 
                 char myMiddleNameInitial = 'J';
-                System.out.println(myMiddleNameInitial);
+                System.out.println("My middle name initial:  " + myMiddleNameInitial);
 
                 char myLastNameInitial = 'T';
-                System.out.println(myLastNameInitial);
+                System.out.println("My last name initial:  " +myLastNameInitial);
 
             /* Population of Germany. Int (32 bit) is the smallest that fits the population, as short (16 bit) is too small for it to fit.**/
 
                 System.out.println("\nPopulation of Germany. Int (32 bit) is the smallest that fits the population," +
                         " as short (16 bit) is to small for it to fit.");
 
-                int populationOfGermany = 83000000;
+                int populationOfGermany = 83862225;
                 System.out.println(populationOfGermany);
 
 
@@ -70,11 +70,14 @@ public class Aufgaben {
                  fit in the int Datatype. So we have to use the next bigger Datatype to represent integers and that is long (64 bit) **/
 
                 System.out.println(
-                        "\nPopulation of Earth. Since 2^31-1 (highest number in int) is roughly 1.6 billion and something, " +
-                                "the population of Earth is to big to fit in the int Datatype. So we have to use " +
-                                "the next bigger Datatype to represent integers and that is long (64 bit).");
+                        """
+                           
+                           Population of Earth. Since 2^31-1 (highest number in int) is roughly 1.6 billion and something,
+                           the population of Earth is to big to fit in the int Datatype. So we have to use the next bigger 
+                           Datatype to represent integers and that is long (64 bit).
+                           """);
 
-                long populationOfEarth = 8000000000L;
+                long populationOfEarth = 8147701969L;
                 System.out.println(populationOfEarth);
 
             /*Smallest Datatype to fit an yes/no answer is boolean (1-bit).**/
@@ -88,8 +91,12 @@ public class Aufgaben {
             /* Goal strike quote of Mario gomez will very likely be an number between 0 and 1, so we have to use float (32 bit)
                 since it is the smallest datatype in Java for floating point numbers. **/
 
-                System.out.println("\nGoal strike quote of Mario gomez will very likely be an number between 0 and 1, " +
-                        "so we have to use float (32 bit) since it is the smallest datatype in Java for floating point numbers.");
+                System.out.println("""
+                        
+                        Goal strike quote of Mario gomez will very likely be an number between 0 and 1,
+                        so we have to use float (32 bit) since it is the smallest datatype in Java for floating point numbers.
+                        
+                        """);
 
                 float marioGomezGoalStrikeQuoteAtFCB = 0.65217f;
                 System.out.println(marioGomezGoalStrikeQuoteAtFCB);
@@ -97,8 +104,12 @@ public class Aufgaben {
             /*Length of the Java Programm in weeks. Since it is about 16 weeks long including the pre-studies. It fits in
                 the smallest numerical DataType, which is Byte (8 bit). **/
 
-                System.out.println("\nLength of the Java Programm in weeks. Since it is about 16 weeks long " +
-                        "including the pre-studies. It fits in the smallest numerical DataType, which is Byte (8 bit).");
+                System.out.println("""
+                        
+                        Length of the Java Programm in weeks. Since it is about 16 weeks long
+                        including the pre-studies. It fits in the smallest numerical DataType, which is Byte (8 bit).
+                        
+                        """);
 
                 byte javaProgramLengthInWeeks = 14;
                 System.out.println(javaProgramLengthInWeeks);
@@ -106,9 +117,13 @@ public class Aufgaben {
             /* The mathematical number PI. Doesn't really fit in any datatype since it's information size is infinite.
                  An good enough approximation fits in float. For higher precision it is recommended to use double or BigDecimal. **/
 
-                System.out.println("\nThe mathematical number PI. Doesn't really fit in any datatype since " +
-                        "it's information size is infinite. An good enough approximation fits in float (maximal 6-7 digits). " +
-                        "For higher precision it is recommended to use double (64 bit) or BigDecimal (varies in size, object).");
+                System.out.println("""
+                        
+                        The mathematical number PI. Doesn't really fit in any datatype since it's information size is infinite. 
+                        An good enough approximation fits in float (maximal 6-7 digits). For higher precision it is recommended 
+                        to use double (64 bit) or BigDecimal (varies in size, object).
+                        
+                        """);
 
                 final float PI = 3.14159f; //Use final for constant, Constants are also written in all caps.
                 System.out.println(PI);
