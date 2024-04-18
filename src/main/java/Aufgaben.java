@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Aufgaben {
     public static void main(String[] args){
-        //Aufgabe 1.1 Scanner
-        //Methodendeklarationen zu den einzelnen Methoden in den Aufgaben unten in dieser Klasse.
+        // Aufgabe 1.1 Scanner
+        // Methodendeklarationen zu den einzelnen Methoden in den Aufgaben unten in dieser Klasse.
 
         System.out.println("Aufgabe 1.1 Scanner");
         textInputOutput();
 
-        //Aufgabe 1.2: Formatting text output
+        // Aufgabe 1.2: Formatting text output
         System.out.println("\n\nAufgabe 1.2: Formatting text output\n");
         System.out.println( """
                   _______________                        |*\\_/*|________
@@ -29,13 +29,13 @@ public class Aufgaben {
                 """
             );
 
-        //Aufgabe 1.3 Geometry
+        // Aufgabe 1.3 Geometry
             System.out.println("\n\nAufgabe 1.3 Geometry\n");
             geometry();
 
 
         // Datatypes & Variables
-        //Aufgabe 2.1 Data Types
+        // Aufgabe 2.1 Data Types
 
             //Initals of My Name
             char myFirstNameInitial = 'T';
@@ -64,7 +64,7 @@ public class Aufgaben {
              An good enough approximation fits in float. For higher precision it is recommended to use double. **/
             float PI = 3.14159f;
 
-        //Aufgabe 2.2 Formatting Text(Bonus)
+        // Aufgabe 2.2 Formatting Text(Bonus)
         System.out.println("\n\nAufgabe 2.2 Formatting Text(Bonus)\n");
 
         String input = "Everybody _said_, it can't be done. Then came one who did not #KNOW# that and just made it.";
@@ -73,7 +73,7 @@ public class Aufgaben {
 
 
 
-        //Aufgabe 3.1
+        // Aufgabe 3.1
         System.out.println("\n\nAufgabe 3.1\n");
 
             Scanner scanner = new Scanner(System.in);
@@ -84,31 +84,31 @@ public class Aufgaben {
             System.out.println("Number of seconds: 244568879 are converted to (in years days hours minutes and seconds):");
             System.out.println(numberOfSecondsToYearsDaysHoursMinutesSeconds(numberOfSeconds));
 
-        //Aufgabe 3.2
+        // Aufgabe 3.2
         System.out.println("\n\nAufgabe 3.2\n");
 
             cylinder();
 
-        //Aufgabe 3.3 One line of Code
+        // Aufgabe 3.3 One line of Code
         System.out.println("\n\nAufgabe 3.3 One line of Code\n");
 
         double inOneLine =  ((Math.sqrt(3.5 +15.5)*5)/3) - ((15.5 + 10) * (15.5 - 4.1));
             System.out.println("The result of the calculation in one line is: ");
             System.out.println(inOneLine);
 
-        //Aufgabe 3.4 Metropolis
+        // Aufgabe 3.4 Metropolis
         System.out.println("\n\nAufgabe 3.4 Metropolis");
 
             metropolisChecker("München", true,1200000,1000);
 
         // Loops
-        //Aufgabe 4.1 Guessing numbers
+        // Aufgabe 4.1 Guessing numbers
         System.out.println("\n\nAufgabe 4.1 Guessing numbers\n");
 
             guesstheNumber();
 
 
-        //Aufgabe 4.2 Triangles
+        // Aufgabe 4.2 Triangles
         System.out.println("\n\nAufgabe 4.2 Triangles\n");
 
             triangles();
@@ -119,9 +119,9 @@ public class Aufgaben {
             christmasTree();
     }
 
-    //Methoden zu den Aufgaben oben hier
+    // Methoden zu den Aufgaben oben hier
 
-    //Methode zur Aufgabe 1.1 Text input and output
+    // Methode zur Aufgabe 1.1 Text input and output
 
     public static void textInputOutput(){
         Scanner scanner = new Scanner(System.in);
@@ -132,7 +132,7 @@ public class Aufgaben {
     }
 
 
-    //Methode zur Aufgabe 1.3 Geometry
+    // Methode zur Aufgabe 1.3 Geometry
 
     public static void geometry(){
         Scanner scanner = new Scanner(System.in);
@@ -157,7 +157,7 @@ public class Aufgaben {
     }
 
 
-    //Methode zur Aufgabe 2.2 Formatting text (bonus excercise)
+    // Methode zur Aufgabe 2.2 Formatting text (bonus excercise)
     public static String formattingText(String text){
         String[] words = text.split(" ");
         List<String> resultingWords = new ArrayList<>();
@@ -180,7 +180,7 @@ public class Aufgaben {
     }
 
 
-    //Methode zur Aufgabe 3.1 Time units
+    // Methode zur Aufgabe 3.1 Time units
 
     public static String numberOfSecondsToYearsDaysHoursMinutesSeconds(int numberOfSeconds){
         int numberOfYears = numberOfSeconds / 31536000;
@@ -199,7 +199,7 @@ public class Aufgaben {
     }
 
 
-    //Methode zur Aufgabe 3.2 Cylinder
+    // Methode zur Aufgabe 3.2 Cylinder
     public static void cylinder(){
 
         Scanner scanner = new Scanner(System.in);
@@ -232,7 +232,7 @@ public class Aufgaben {
 
 
 
-    //Methode zur Aufgabe 3.4 Metropolis (Bonus excercise)
+    // Methode zur Aufgabe 3.4 Metropolis (Bonus excercise)
 
     public static void metropolisChecker(String name, boolean isCapital, int population, double taxPerPerson) {
         boolean isMetropolis = false;
@@ -278,7 +278,7 @@ public class Aufgaben {
         }
     }
 
-    //Methode zur Aufgabe 4.1 Guessing the numbers
+    // Methode zur Aufgabe 4.1 Guessing the numbers
 
     public static void guesstheNumber(){
         int randomNumberToGuess = (int) (Math.random() * 99) +1;
@@ -307,7 +307,7 @@ public class Aufgaben {
     }
 
 
-    //Methode für Aufgabe 4.2 Triangles
+    // Methode für Aufgabe 4.2 Triangles
 
     public static void triangles(){
         Scanner scanner = new Scanner(System.in);
@@ -332,7 +332,7 @@ public class Aufgaben {
 
     }
 
-    //Methode für Aufgabe 4.3 Christmas tree (Bonus)
+    // Methode für Aufgabe 4.3 Christmas tree (Bonus)
 
     public static void christmasTree(){
         Scanner scanner = new Scanner(System.in);
