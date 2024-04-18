@@ -63,7 +63,7 @@ public class Aufgaben {
                         " as short (16 bit) is to small for it to fit.");
 
                 int populationOfGermany = 83862225;
-                System.out.println(populationOfGermany);
+                System.out.println("Population of Germany: " + populationOfGermany);
 
 
             /* Population of Earth. Since 2^31-1 (highest number in int) is roughly 1.6 billion and something, the population of Earth is to big to
@@ -78,14 +78,14 @@ public class Aufgaben {
                            """);
 
                 long populationOfEarth = 8147701969L;
-                System.out.println(populationOfEarth);
+                System.out.println("Human population of Earth: " + populationOfEarth);
 
             /*Smallest Datatype to fit an yes/no answer is boolean (1-bit).**/
 
-                System.out.println("\nSmallest Datatype to fit an yes/no answer is boolean (1 bit).");
+                System.out.println("\nSmallest Datatype to fit an yes/no answer is boolean (1 bit).\n");
 
                 boolean isDayTime = true;
-                System.out.println(isDayTime);
+                System.out.println("Is it day time? " + isDayTime);
 
 
             /* Goal strike quote of Mario gomez will very likely be an number between 0 and 1, so we have to use float (32 bit)
@@ -95,11 +95,10 @@ public class Aufgaben {
                         
                         Goal strike quote of Mario gomez will very likely be an number between 0 and 1,
                         so we have to use float (32 bit) since it is the smallest datatype in Java for floating point numbers.
-                        
                         """);
 
                 float marioGomezGoalStrikeQuoteAtFCB = 0.65217f;
-                System.out.println(marioGomezGoalStrikeQuoteAtFCB);
+                System.out.println("Mario Gomez goal strike quote as player for FC Bayern München: " + marioGomezGoalStrikeQuoteAtFCB + " goals per game.");
 
             /*Length of the Java Programm in weeks. Since it is about 16 weeks long including the pre-studies. It fits in
                 the smallest numerical DataType, which is Byte (8 bit). **/
@@ -108,11 +107,10 @@ public class Aufgaben {
                         
                         Length of the Java Programm in weeks. Since it is about 16 weeks long
                         including the pre-studies. It fits in the smallest numerical DataType, which is Byte (8 bit).
-                        
                         """);
 
                 byte javaProgramLengthInWeeks = 14;
-                System.out.println(javaProgramLengthInWeeks);
+                System.out.println("Java Bootcamp Länge in Wochen: " + javaProgramLengthInWeeks);
 
             /* The mathematical number PI. Doesn't really fit in any datatype since it's information size is infinite.
                  An good enough approximation fits in float. For higher precision it is recommended to use double or BigDecimal. **/
@@ -122,11 +120,10 @@ public class Aufgaben {
                         The mathematical number PI. Doesn't really fit in any datatype since it's information size is infinite. 
                         An good enough approximation fits in float (maximal 6-7 digits). For higher precision it is recommended 
                         to use double (64 bit) or BigDecimal (varies in size, object).
-                        
                         """);
 
                 final float PI = 3.14159f; //Use final for constant, Constants are also written in all caps.
-                System.out.println(PI);
+                System.out.println("Value of pi in float: " + PI);
 
         // Aufgabe 2.2 Formatting Text(Bonus)
             System.out.println("\n\nAufgabe 2.2 Formatting Text(Bonus)\n");
